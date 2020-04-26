@@ -1,4 +1,4 @@
-#nwbrt-page {
+/*#nwbrt-page {
   max-width: 1150px; 
   margin: auto;
   font-family: Avenir;
@@ -7,16 +7,38 @@
 #nwbrt-page .jumbotron {
   background-color: #242424;
   color: #FFFFFF;
+}*/
+
+body {
+  padding: 10px;
+  margin-left: 5px;
+  background-image: linear-gradient(to right, azure, #00BFFF, #8BC543);
+}
+
+.left-column, .right-column {
+  background-color: white;
+}
+
+.section-bottom {
+  background-color: white;
 }
 
 .nwbrt-logo-img {
-  max-width: 800px;
-  height: auto;
+  /*max-width: 800px;
+  height: auto;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .nwbrt-img-gradient {
-  max-width: 400px;
+  max-width: 92%;
   height: auto;
+}
+
+.nwbrt-color-white {
+  color: #FFFFFF;
 }
 
 .nwbrt-color-blue {
@@ -28,7 +50,7 @@
 }
 
 .section-top .column-padding {
-  padding: 50px;
+  padding: 30px;
 }
 
 .section-bottom .address-font {
@@ -45,13 +67,18 @@
 
 .address-separator-width {
   width: 50%;
-  text-align: left;
 }
 
-.section-top .section-paragraph {
+.address-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-align: center;
+}
+
+/*.section-top .section-paragraph {
   white-space: nowrap;
   width: 200px;
   border: 1px solid #000000;
   overflow: hidden;
   text-overflow: ellipsis;
-}
+}*/
