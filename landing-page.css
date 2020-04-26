@@ -53,6 +53,10 @@ body {
   padding: 30px;
 }
 
+.section-bottom-padding {
+  padding: 30px;
+}
+
 .section-bottom .address-font {
   font-size: 85%;
 }
@@ -82,3 +86,52 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }*/
+
+.last-card {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1001px) {
+  #section-top-tablet-mobile {
+    display : none;
+  }
+  /*#section-top-mobile {
+    display : none;
+  }*/
+  #section-bottom-tablet {
+    display : none;
+  }
+  #section-bottom-mobile {
+    display : none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  #section-top-desktop {
+    display : none;
+  }
+  /*#section-top-mobile {
+    display : none;
+  }*/
+  #section-bottom-desktop {
+    display : none;
+  }
+  #section-bottom-mobile {
+    display : none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /*#section-top-tablet {
+    display : none;
+  }*/
+  #section-top-desktop {
+    display : none;
+  }
+  #section-bottom-tablet {
+    display : none;
+  }
+  #section-bottom-desktop {
+    display : none;
+  }
+}
