@@ -1,14 +1,3 @@
-/*#nwbrt-page {
-  max-width: 1150px; 
-  margin: auto;
-  font-family: Avenir;
-}
-
-#nwbrt-page .jumbotron {
-  background-color: #242424;
-  color: #FFFFFF;
-}*/
-
 body {
   padding: 10px;
   margin-left: 5px;
@@ -24,8 +13,6 @@ body {
 }
 
 .nwbrt-logo-img {
-  /*max-width: 800px;
-  height: auto;*/
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -79,14 +66,6 @@ body {
   text-align: center;
 }
 
-/*.section-top .section-paragraph {
-  white-space: nowrap;
-  width: 200px;
-  border: 1px solid #000000;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}*/
-
 .last-card {
   width: 100%;
 }
@@ -95,9 +74,6 @@ body {
   #section-top-tablet-mobile {
     display : none;
   }
-  /*#section-top-mobile {
-    display : none;
-  }*/
   #section-bottom-tablet {
     display : none;
   }
@@ -110,9 +86,6 @@ body {
   #section-top-desktop {
     display : none;
   }
-  /*#section-top-mobile {
-    display : none;
-  }*/
   #section-bottom-desktop {
     display : none;
   }
@@ -122,9 +95,6 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  /*#section-top-tablet {
-    display : none;
-  }*/
   #section-top-desktop {
     display : none;
   }
