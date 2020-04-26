@@ -1,0 +1,56 @@
+#nwbrt-page {
+  max-width: 1150px; 
+  margin: auto;
+  font-family: Avenir;
+}
+
+#nwbrt-page .jumbotron {
+  background-color: #242424;
+  color: #FFFFFF;
+}
+
+.nwbrt-logo-img {
+  max-width: 800px;
+  height: auto;
+}
+
+.nwbrt-img-gradient {
+  max-width: 400px;
+  height: auto;
+}
+
+.nwbrt-color-blue {
+  color: #00BFFF;
+}
+
+.nwbrt-color-green {
+  color: #8BC543;
+}
+
+.section-top .column-padding {
+  padding: 50px;
+}
+
+.section-bottom .address-font {
+  font-size: 85%;
+}
+
+.section-bottom .company-font {
+  font-size: 90%;
+}
+
+.span-display-block {
+  display: block;
+}
+
+.address-separator-width {
+  width: 50%;
+}
+
+.section-top .section-paragraph {
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
