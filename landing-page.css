@@ -1,7 +1,45 @@
-body {
-  padding: 10px;
-  margin-left: 5px;
-  background-image: linear-gradient(to right, azure, #00BFFF, #8BC543);
+.nwbrt-gradient {
+  background-image: linear-gradient(to right, #00BFFF, #8BC543);
+  height: 150px;
+  padding: none;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.nwbrt-top-img-gradient {
+  height: 150px;
+  padding: none;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text-position {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -30%);
+}
+
+.nwbrt-small-img {
+  max-width: 92%;
+  height: auto;
+}
+
+.members-padding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.nwbrt-img-with-gradient {
+  object-fit: cover;
+  width: 100%;
+  min-height: 10rem;
+}
+
+.txt-align {
+  text-align: center;
 }
 
 .left-column, .right-column {
@@ -9,19 +47,23 @@ body {
 }
 
 .section-bottom {
-  background-color: white;
+  background-color: #F8F8F8;
+  color: black;
 }
 
 .nwbrt-logo-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  /*width: 30%;*/
+  width: 20rem;
 }
 
-.nwbrt-img-gradient {
-  max-width: 92%;
-  height: auto;
+.nwbrt-footer {
+  background-color: #F8F8F8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: black;
 }
 
 .nwbrt-color-white {
@@ -36,12 +78,10 @@ body {
   color: #8BC543;
 }
 
-.section-top .column-padding {
-  padding: 30px;
-}
-
-.section-bottom-padding {
-  padding: 30px;
+.section-bottom {
+  postion: absolute;
+  top: 0;
+  right 0;
 }
 
 .section-bottom .address-font {
@@ -56,14 +96,11 @@ body {
   display: block;
 }
 
-.address-separator-width {
-  width: 50%;
-}
-
 .address-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 15px;
   text-align: center;
+  background-color: white;
 }
 
 .last-card {
